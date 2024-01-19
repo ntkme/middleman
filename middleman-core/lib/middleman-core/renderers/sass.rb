@@ -1,4 +1,4 @@
-require 'sassc'
+require 'sassc-embedded'
 
 module Middleman
   module Renderers

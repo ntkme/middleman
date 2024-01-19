@@ -1,7 +1,7 @@
 require 'active_support/core_ext/object/try'
 require 'memoist'
 require 'middleman-core/contracts'
-require 'sassc'
+require 'sassc-embedded'
 
 # Minify CSS Extension
 class Middleman::Extensions::MinifyCss < ::Middleman::Extension
